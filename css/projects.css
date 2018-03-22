@@ -1,0 +1,37 @@
+.projectbackground{
+    width: 100%;
+}
+.projectheader{
+    font-family: "calibri";
+    color: grey;
+    font-size: 215%;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 1%;
+    
+}
+
+.project-container{
+    background-color: #91b400;
+    padding: 1% 12%;
+    margin: 1% 2%;
+    
+}
+
+.project-title{
+    font-family: "calibri";
+    color: #e6e6e6ff;
+    font-size: 165%;
+    font-weight: 600;
+    padding-top: 5%;
+    
+}
+/* images must be 280 x 140 */
+.project-image {
+    border-style: solid;
+    border-color: grey;
+    border-width: 3px;
+    width: 100%;
+    margin-left: 1%;
+    margin-top: 1%;
+}

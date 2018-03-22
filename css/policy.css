@@ -1,0 +1,31 @@
+.policy-header{
+    color: #f2f2f2;
+    font-family: "calibri";
+    font-size: 200%;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 5%;
+    
+}
+
+.policy-text{
+    color: #f2f2f2;
+    font-family: "calibri";
+    font-size: 150%;
+    padding-bottom: 5%;
+}
+
+.policy-background{
+    padding: 2% 10%;
+    
+}
+.policy-container{
+    background-color: grey;
+    padding: 2% 15%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #91b400;
+    border-radius: 25px;
+    margin: auto;
+    
+}

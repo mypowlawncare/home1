@@ -1,0 +1,92 @@
+.contactbackground{
+    background: url(../images/contact-background.png);
+    width: 100%;
+    display: block;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#contactheader{
+    font-size: 250%;
+    color: #CCCCCC;
+    font-family: "calibri";
+    opacity: 1;
+    text-align: center;
+    position: relative;
+    
+}
+
+.greytransparentbackground{
+    background: rgba(126, 127, 122, .8);
+    margin: auto;
+    width: 70%;
+    height: 25em;
+    padding: 1% 10%;
+}
+
+.line{
+    background-color: #91b400;
+    border-radius: 2px;
+    border-style: solid;
+    height: 2px;
+    margin: auto;
+    width: 87%;
+    margin-bottom: 10%;
+}
+.contactcontainer {
+    width: 86%;
+    height: 100%;
+    margin: auto;
+}
+.contactbox {
+    box-sizing: content-box;
+    width: 50%;
+    display: block;
+    display: inline-block;
+    float: left;
+    margin: auto;
+}
+
+.contactbox2 {
+    box-sizing: content-box;
+    width: 50%;
+    display: block;
+    display: inline-block;
+}
+.contactcontent {
+    font-size: 145%;
+    color: #CCCCCC;
+    opacity: 1;
+    position: relative;
+}
+
+.locations {
+    padding-top: 5%;
+    font-size: 145%;
+    color: #CCCCCC;
+    opacity: 1;
+    position: relative;
+}
+.link{
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 3px;
+    background-color: #91b400;
+    width: 50%;
+    float: right;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 15%;
+    display: block;
+}
+.linktext{
+    text-align: center;
+    font-size: 200%;
+    font-family: "calibri";
+    color: White;
+    padding-top: 2%;
+}
+.linklink{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,59 @@
+/* services */
+
+.servicebackground{
+    background-image: url(../images/grassbackground.png);
+    width: 100%;
+    height: 100%;
+}
+.serviceheader{
+    color: #CCCCCC;
+    text-align: center;
+    font-size: 215%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: "calibri";
+    font-weight: 600;
+}
+.servicecolumns{
+   width: 100%;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 25%;
+}
+.servicecolumnblock{
+     box-sizing: content-box;
+    width: 33.33%;
+    display: block;
+    display: inline-block;
+    float: left;
+    margin: auto;
+    background-color: #cccccc;
+    height: 265%;
+}
+.servicecolumnblockmid{
+    box-sizing: content-box;
+    width: 33.33%;
+    display: block;
+    display: inline-block;
+    float: left;
+    margin: auto;
+    height: 265%;
+    background-color: grey;
+    }
+.servicecolumnheader{
+    color: white;
+    font-family: "calibri";
+    font-size: 185%;
+    padding-top: 13%;
+    padding-bottom: 5%;
+}
+.line1{
+    width: 58%;
+    padding-bottom: 5%}
+
+.content{
+    font-family: "calibri";
+    font-size: 140%;
+    color: white;
+}

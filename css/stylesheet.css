@@ -1,0 +1,217 @@
+/*reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end of reset */
+
+.divbackground {
+    height: 800px;
+    background-color: #f2f2f2;
+}
+.divnavigation {
+    height: 26px;
+    background-color: #91b400;
+}
+.divfooter {
+    height: 200px;
+    background-color: #91b400;
+}
+.logoheaderdiv {
+    background-color: #cccccc;
+    width: auto;
+    height: 95px;
+}
+/*top header */
+.topheaderdiv {
+    background-color: grey;
+    height: 25px;
+    border-bottom-color: #91b400;
+    border-style: solid;
+    border-bottom-width: thin;
+}
+.topheaderdivtext0 {
+    margin: auto;
+    padding-top: 5px;
+}
+/* 801-471-7863 | Get A Quote */
+p.topheaderdivtext1 {
+    display: inline-flex;
+    font-family: "calibri";
+    padding-left: 60px;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+a.quotelink{
+    text-decoration: none;
+    color: white;
+}
+a.quotelink:link{
+    text-decoration: none;
+    color: white;
+}
+a.quotelink:visited{
+    text-decoration: none;
+    color: white;
+}
+a.quotelink:hover{
+    text-decoration: none;
+    color: #91b400;
+}
+a.quotelink:active{
+    text-decoration: none;
+    color: #91b400;
+}
+
+/* powlawncare@gmail.com */
+p.topheaderdivtext2 {
+    display: inline-flex;
+    padding-right: 80px;
+    float: right;
+    color: white;
+    font-family: "calibri";
+    font-size: 17px;
+    font-weight: 500;
+}
+/* image */
+.logo{
+    padding-top: 11px;
+    width: 185px;
+    margin:auto;
+    display: block;
+
+}
+/* navigation */
+
+#menu{
+   list-style-type: none;
+    margin: auto;
+    padding: 0;
+    background-color:#91b400;
+    text-align: center;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+}
+
+#menu li {
+    display: inline-flex;
+    text-align: center;
+    padding: 3px 30px;
+    color: white;
+    font-family: "calibri";
+    font-weight: 700;
+}
+.menulinks {
+    color: white;
+}
+a.menulinks:link {
+    text-decoration: none;
+    color: white;
+}
+a.menulinks:visited {
+    text-decoration: none;
+    color: white;
+}
+a.menulinks:hover {
+    text-decoration: none;
+    color: grey;
+}
+a.menulinks:active {
+    text-decoration: none;
+    color: grey;
+}
+
+
+/* 3 column div */
+.container {
+    width: 79%;
+    height: 150px;
+    margin: auto;
+    padding-top: 18px;
+    text-align: center;
+    padding-left: 13%;
+}
+.box {
+    box-sizing: content-box;
+    width: 33.33%;
+    display: block;
+    display: inline-block;
+    float: left;
+    margin: auto;
+}
+.foot-column-header {
+    text-align: left;
+    font-family: "calibri";
+    color: #e6e6e6;
+    font-size: 120%;
+    font-weight: 700; 
+    margin-bottom: 2%;
+}
+.foot-column-content{
+    text-align: left;
+    font-family: "calibri";
+    color: #e6e6e6;
+    font-size: 100%;
+}
+.footlink{
+    text-decoration: none;
+    color: #e6e6e6;
+    font-family: "calibri"
+}
+.footlink:link{
+    text-decoration: none;
+    color: #e6e6e6;
+}
+.footlink:visited{
+    text-decoration: none;
+    color: #e6e6e6;
+}
+.footlink:hover{
+    text-decoration: none;
+    color: grey;
+}
+.footlink:active{
+    text-decoration: none;
+    color: grey;
+}

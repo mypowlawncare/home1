@@ -1,0 +1,42 @@
+/* about us */
+.aboutbackground {
+    background: url(../images/about-background.png);
+    width: 100%;
+}
+.aboutdiv {
+    background: grey;
+    margin: auto;
+    width: 70%;
+}
+.aboutheader {
+    font-size: 215%;
+    color: #e6e6e6;
+    text-align: center;
+    font-family: "calibri";
+    font-weight: 800;
+    padding-top: 4%;
+    padding-bottom: 1%;
+    
+}
+
+.line{
+    background-color: #91b400;
+    border-radius: 2px;
+    border-style: solid;
+    height: 3px;
+    margin: auto;
+    width: 85%;
+}
+
+.aboutcontent{
+    color: #e6e6e6;
+    font-family: "calibri";
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 132%;
+    line-height: 105%;
+    font-weight:500;
+    font-kerning: none;
+}
